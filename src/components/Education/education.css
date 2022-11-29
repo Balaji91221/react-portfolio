@@ -1,0 +1,65 @@
+ section{
+    min-height: 100vh; 
+    padding: 1rem;
+} 
+.Education .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.Education .box-container .box{
+    width:27rem;
+    margin:1rem 1rem;
+    padding-left: 0.8rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.Education .box-container .box span{
+    font-size: 1rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.Education .box-container .box h3{
+    font-size: 1rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+
+.Education .box-container .box p{
+    font-size: 1rem;
+    color:#eee;
+    padding: 1rem 0;
+}
+
+.Education .box-container .box i{
+    position: absolute;
+    top:-2rem; left:-2.5rem;
+    
+    width: 5rem;
+    text-align: center;
+     font-size: 2rem;
+     color:#fff;
+     background:var(--yellow);
+
+}
+/*====media quies(medium devics)============*/
+@media screen and (max-width:1024px){
+    header{
+        height:60vh;
+    }
+}
+/*====media quies(small devics)============*/
+@media screen and (max-width:600px){
+    header{
+        height:60vh;
+    }
+    
+}
