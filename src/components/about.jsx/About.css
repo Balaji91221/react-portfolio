@@ -37,10 +37,7 @@ h2,h5{
 /*====media quies(small devics)============*/
 @media screen and (max-width:600px){
 
-    .about__me{
-        margin :3rem;
-        height:40vh;
-    }
+    
     .about__content {
         text-align:center;
     }
