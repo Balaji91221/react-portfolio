@@ -1,6 +1,6 @@
  section{
     min-height: 100vh; 
-    padding: 1rem;
+    
 } 
 .Education .box-container{
     display: flex;
@@ -8,7 +8,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding:1rem 0;
-    padding-left: 3rem;
+    
 }
 
 .Education .box-container .box{
